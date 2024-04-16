@@ -1,0 +1,187 @@
+@media (max-width:1408px) {
+    .reseach{
+        margin-left: 8px;
+    }
+}
+@media (max-width: 1160px) {
+    .farmerGirl{
+        display: block;
+    }
+    .reseach , .menuHeaderOf{
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+    .reseach{
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .saleOfHeader{
+        margin: 120px auto;
+    }
+    .menuHeaderOf{
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .summerSale , .specailProduct{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width:1050px) {
+    .infoPage{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .homeInfoHow{
+        display: grid;
+    }
+}
+@media (max-width: 768px) {
+    .reseach{
+        background-size: cover;
+        width: auto;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 0;
+    }
+    .saleOfHeader {
+        margin: 100px auto;
+    }
+    .reseach p{
+        font-size: medium;
+        height: auto;
+    }
+    .reseach h1{
+        font-size: 26.6px;
+    }
+    .specailProduct p:first-child{
+        font-size: small;
+    }
+    .specailProduct p:last-child {
+        font-weight: 600;
+        font-size: 23px;
+    }
+    .navigation{
+        font-size: 15px;
+    }
+}
+@media (max-width:762px) {
+    .saleOfHeader{
+        margin-left: 6px;
+    }
+    /* .menuHeaderOf{
+        display: block;
+    } */
+    .summerSale {
+    display: none;
+    }
+    .specailProduct{
+        width: 90%;
+        margin: 10px;
+        border-radius: 40px;
+    }
+    .specailProduct button{
+        background-color: inherit;
+        justify-content: center;
+    }
+    .saleOfHeader{
+        text-wrap: wrap;
+        text-align: justify;
+    }
+    .saleOfHeader h1{
+        width: 250px;
+    }
+    .infoPage{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .homeInfoHow{
+        display: grid;
+        height: auto;
+        margin: 10px auto;
+    }
+}
+@media (max-width:610px) {
+    .saleOfHeader h1{
+        width: 230px;
+        height: auto;
+    }
+    .paragraph p:last-child{
+        color: #FFFFFF;
+        margin: 0 ;
+        height: auto;
+        width: 200px;
+    }
+    .specailProduct{
+        display: none;
+    }
+    .paragraph p:first-child{
+        font-size: 18px;
+    }
+    .paragraph p:last-child{
+        font-size: 15px;
+    }
+}
+@media (max-width:533px) {
+    .saleOfHeader h1{
+        width: 180px;
+        text-align: left;
+        margin-bottom: auto;
+        font-size: 22px;
+        text-align: justify;
+    }
+    .paragraph p:last-child{
+        color: #FFFFFF;
+        margin: 0 ;
+        height: auto;
+        width: 200px;
+        font-size: 14px;
+    }
+    .reseach{
+        background-size: 100% 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .saleOfHeader{
+        height: auto;
+        margin-top: 4vh;
+    }
+    .saleOfHeader h1{
+        font-size: 18px;
+        width: 200px;
+    }
+    .paragraph p{
+        font-size: 14px;
+    }
+    .headerYellow{
+        width: 10%;
+        padding: 4px;
+        font-size: 14px;
+    }
+    .farmerGirl button{
+        margin-top: 8px;
+        width: 30%;
+        height: auto;
+        gap: 4px;
+    }
+    .reseach p{
+        font-size: 10px;
+    }
+    .reseach img{
+        width: 10px;
+    }
+    .paragraph{
+        margin-bottom: 14px;
+    }
+}
+@media (max-width:400px) {
+    .reseach{
+        background-size: 100% 85%;
+    }
+    .reseach h1{
+        width: 300px;
+    }
+}

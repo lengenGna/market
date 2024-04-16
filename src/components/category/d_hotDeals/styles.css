@@ -1,0 +1,118 @@
+.colorSale{
+    background-color: #F7F7F7;
+    padding-bottom: 60px;
+}
+.newHot{
+    background-color: white;
+}
+.main-button{
+    width: 528px;
+    height: 654px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    color: #00B207;
+    border: 1px solid #E6E6E6;
+}
+.main-button:hover {
+    border: 1px solid #2C742F;;
+    box-shadow: 0px 0px 10px #2C742F;
+}
+.main-button button{
+    background-color: #00B207;
+    width: 371px;
+    height: 45px;
+    padding: 14px 32px 14px 32px;
+}
+.btn-shop{
+    position: absolute;
+    top: 377px; 
+    left: 35px;
+}
+.addToCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-top: 0;
+}
+.buyNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-button img:first{
+    width: 525px;
+    height: 446px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.bestSale{
+    position: absolute;
+    top: 16px;
+    left: 140px;
+    color: #FFFFFF;
+    background-color: #2388FF;
+}
+
+.nameDeal p:first-child{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.costSale{
+    font-weight: 500;
+    font-size: 24px;
+    color: #1A1A1A;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.slitBig{
+    color: #999999;
+    font-weight: 400;
+    font-size: 24px;    
+}
+.starLight{
+    display: flex;
+    width: 239px;
+    align-items: center;
+    height: 18px;
+    gap: 4px;
+    color: #999999;
+}
+.starLight img{
+    width: 18px;
+    height: 18px;
+    size: 18px 18px;
+}
+.starLight p{
+    margin: 0;
+}
+.timeOfapple{
+    position: absolute;
+    bottom: 0;
+}
+.newHot{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.newHot2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.hotOne{
+    height: 326.5px;
+    width: 262px;
+}

@@ -1,0 +1,130 @@
+
+/* ecoBazar's code */
+.ecoBazar {
+    justify-content: space-between;
+}
+.ecoBazar h1{
+    font-family: Poppins;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    height: 38px;
+    width: 183px;
+    justify-content: center;
+    /* border: 1px solid black; experemental code */
+}
+
+/* seach codes */
+.seach input[type=text]:focus {
+    outline: none;
+}
+.seach input{
+    border-radius: 6px 0px 0px 6px;
+    height: 40px;
+    width: 320px;
+    border-right: none;
+    border: 1px solid #E6E6E6;
+    background: white url("../../assets/icons/Seach.png") 4px no-repeat ;
+    padding-left: 30px;
+}
+.seach button{
+    background: #00B207;
+    border-radius: 0px 6px 6px 0px;
+    border-color: #00B207;
+    width: 98px;
+    height: 45px;
+    font-weight: 600;
+}
+.seach p{
+    margin: 0;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+/* contact part  */
+.contact img{
+    width: 32px;
+    height: 32px;
+    padding: 4.27px 2.16px 3.93px 2.16px;
+    gap: 0px;
+    opacity: 0px;
+}
+.contact button{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    border: none;
+    margin: 4px;
+}
+.contact button:first-child{
+    padding-left: 20px;
+    border-right: 2px solid grey;
+    padding-right: 16px;
+}
+
+/* shopping div code  */
+.shopping{
+ margin-left: 6px;
+ margin-right: auto;
+}
+.shopping p{
+    color: #4D4D4D;
+    font-weight: 400;
+    margin: auto;
+}
+.shopping p:last-child {
+    font-weight: 500;
+    color: #1A1A1A;
+}
+
+/* Menu code */
+.navigation{
+    background-color: #333333;
+    height: 60px;
+    margin-bottom: 24px;
+}
+.navigation a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/*nav-links div code   */
+.nav-linkDiv{
+    justify-content: space-between;
+}
+.nav-links {
+    gap: 32px;
+}
+.nav-links a{
+    color: #999999;
+    font-weight: 500;
+}
+.nav-links a:first-child {
+    color:#FFFFFF;
+    margin-left: 4px;
+}
+
+/* contact-number code */
+.contact-number{
+    gap: 11.53px;
+}
+.contact-number p{
+    color:#FFFFFF;
+    margin-right: 4px;
+    font-weight: 500;
+}
+/* hello menuBar */
+.menu{
+    display: none;
+}
+.menu button{
+    display: none;
+    width: 0;
+}
+.realMenu{
+    display: none;
+}
+.menuAbout span:last-child {
+    display: none;
+}

@@ -1,0 +1,139 @@
+.meaning{
+    display: flex;
+    justify-content: space-between;
+}
+.meaningFirst{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+}
+.meaning a {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    color: #20B526;
+    padding: 0;
+    margin: 0;
+    gap: 12px;
+    margin-right: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.flex-product{
+    margin-left: 2px;
+}
+/* product div lol продуктив  */
+.product-div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.saleFive{
+    background-color: #EA4B48;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    height: 27px;
+    padding: 3px 8px 3px 8px;
+    border-radius: 5px;
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.popular-product{
+    border: 1px solid #E6E6E6;
+    width: 264px;
+    height: 327px;
+    padding: 0;
+    position: relative;
+}
+.popular-product p{
+    margin: 0;
+    padding: 0;
+}
+/* when hover product codes */
+.popular-product:hover{
+    border: 1px solid #20B526;
+    box-shadow: 0px 0px 5px #20B526;
+}
+.popular-product:hover:hover button{
+    background-color:#20B526;
+}
+.popular-product:hover .aboutProduct{
+    color: #20B526;
+}
+.popular-product:hover .bag{
+    display: none;     
+}
+.popular-product:hover  .newBag{
+    display: flex;
+}
+.popular-product:hover .absolute{
+    display: block;
+}
+.popular-product:hover .absolute img {
+    cursor: pointer;
+}
+/* img block */
+.newBag{
+    display: none;
+    margin-left: 5px;
+}
+.absolute{
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    width: 45px;
+    display: none;
+}
+.lookLike{
+    width: 254px;
+    height: 210px;
+}
+.aboutProduct {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.aboutProduct, .star{
+    margin-left: 12px;
+}
+.cost {
+    display: flex;
+    justify-content: space-between
+}
+.cost p{
+    color:#1A1A1A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.cost button{
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-right: 8px;
+}
+.slit{
+    color:#999999;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.star{
+    width: 85px;
+    height: 20px;
+    display: flex;
+}
+.star img{
+    padding-left: 2px;
+}

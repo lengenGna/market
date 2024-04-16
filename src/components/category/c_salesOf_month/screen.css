@@ -1,0 +1,18 @@
+@media (max-width:1315px) {
+    .bankai{
+        display: block;
+    }
+    .sale{
+        margin: auto;
+        padding-left: 0;
+        background-size: cover;
+    }
+}
+@media (max-width:460px) {
+    .sale{
+        width: 90%;
+    }
+    .sale button{
+        margin: auto;
+    }
+}

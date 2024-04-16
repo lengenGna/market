@@ -1,0 +1,69 @@
+.footer_dv {
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.link_EcoFooter h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    height: 38px;
+    width: 183px;
+    justify-content: center;
+    /* border: 1px solid black; experemental code */
+}
+.link_EcoFooter p{
+    color: #808080;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 24px;
+    width: 336px;
+    word-break: keep-all;
+}
+.prox span{
+    border-bottom: 2px solid #20B526;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 4px;
+    padding-bottom: 4px;
+}
+.prox span:hover{
+    cursor: pointer;
+}
+.proxP{
+    color: #808080;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 24px;
+}
+.delet{
+    border: 1px solid #333333;
+}
+.link_dv a{
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.link_dv p {
+    color: #FFFFFF;
+}
+.white{
+    margin: 0;
+}
+.grid{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    color: #FFFFFF;
+    gap: 300px;
+}

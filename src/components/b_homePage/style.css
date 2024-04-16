@@ -1,0 +1,191 @@
+
+/* main div */
+.farmerGirl{
+    gap: 24px;
+    display: flex;
+    /* width: 1319px;
+    height: 600px; */
+}
+
+.bir{
+    margin: 0;
+    padding: 0;
+}
+/* All buttons code */
+.farmerGirl button{
+    background-color: #FFFFFF;
+    width: 191px;
+    height: 51px;
+    border-radius: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #00B207;
+    border: rgb(0,0,0,0);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* first child */
+.reseach{
+    background-image: url("../../assets/images/Bannar-Big.png");
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: 872px 600px;
+    background-position: center;
+    width: 872px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+/* saleOfHeader */
+.saleOfHeader{
+    margin-top: 155px;
+    margin-left: 60px;
+    height: 290px;
+    width: 596px;
+    color: #FFFFFF;
+}
+.saleOfHeader h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Poppins;
+    word-break: break-word;
+    width: 400px;
+    margin-bottom: 28px;
+}
+
+.paragraph{
+    padding-left: 12px;
+    border-left: 2px solid #84D187;
+    margin-bottom: 28px;
+}
+.paragraph p:first-child{
+    font-weight: 500;
+    font-size: 20px;
+    height: 30px;
+}
+.paragraph p:last-child {
+    font-weight: 400;
+    color:  #808080;
+    font-size:17px;
+}
+
+.headerYellow{
+    background-color: #FF8A00;
+    width: 108px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 4px 12px 4px 12px;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Summer Sale  second Div of HeaderPage */
+.summerSale{
+    background-image: url("/src/assets/images/BG.png");
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    background-size: 453px 288px;
+    background-position: center;
+    width: 453px;
+    height: 288px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+
+}
+.summerSale button{
+    background-color: inherit;
+    margin-left: 24px;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+.summerSale span{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.summerSaleParagraph {
+    padding: 24px 0px 0px 32px;
+}
+.summerSaleParagraph p:first-child {
+    width: 132px;
+    font-weight: 500;
+    font-size: 18px; 
+    margin: 0;
+    padding: 0;
+}
+.summerSaleParagraph p:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    color:#666666;
+    padding: 0;
+    margin: 0;
+}
+
+               
+/* specailProduct */
+.specailProduct{
+    margin: 0;
+    background-image: url(/src/assets/images/BG2.png);
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    background-size: 453px 288px;
+    width: 453px;
+    height: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.specailProduct button{
+    background-color: inherit;
+    justify-content: flex-start;
+    margin-top: 12px;
+    margin-left: 115px;
+}
+
+.specailDiv{
+    text-align: center;
+    padding: 50px;
+}
+.paragraphSpecail p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+}
+.paragraphSpecail p:last-child{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+
+/* infoPage */
+.infoPage{
+    box-shadow: 0px 8px 40px 0px #00260314;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin: 24px 20px 0px 8px;
+    padding: 0px 20px 0px 20px;
+}
+.homeInfoHow img{
+    margin-right: 16px;
+}
+.homeInfoHow p {
+    margin: 0;
+}
+.homeInfoHow p:first-child{
+    font-weight: 600;
+    font-size: 16px;
+}
+.homeInfoHow p:last-child{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}

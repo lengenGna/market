@@ -1,0 +1,25 @@
+@media (max-width:1360.50px) {
+    .news{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    /* .screenNews{
+        border: 12px solid green;
+                display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+    } */
+    .testOver{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0; 
+        height: auto;
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+    .test{
+        height: auto;
+    }
+}

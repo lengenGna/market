@@ -1,0 +1,28 @@
+@media (max-width:1300px) {
+    .pictureSummer{
+        justify-content: start;
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .offerInfo{
+        width:90%;
+        height:auto;
+        margin: 0;
+        /* word-wrap: break-word;
+        word-break: keep-all; */
+    }
+    .tomatoSale{
+        width: 90%;
+    }
+}
+@media (max-width:433.50px) {
+    .tomatoSale{
+        
+        margin-left: 10px;
+    }
+    .pictureSummer{
+        padding: 0;
+        /* width: auto; */
+    }
+}

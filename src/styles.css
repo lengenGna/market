@@ -1,0 +1,62 @@
+
+/*
+body{
+  margin:0;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1380px; /* Set your desired maximum width */
+/* }
+ */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+*{
+  user-select: none;
+} */
+.flex {
+  display: flex;
+  align-items: center; /* Here global code of items center */
+}
+.wrapper{
+  max-width: 1380px;
+  margin: auto;
+}
+/* body{
+  overflow-x: hidden;
+} */
+button:hover{
+  cursor: pointer;
+}
+p{
+  font-family: Poppins;
+}
+body{
+  margin: 0;
+}
+a{
+  font-family: Poppins;
+  text-decoration: none;
+}
+h1{
+  font-family: Poppins;
+  font-weight: 600;
+}
+span{
+  font-family: Poppins;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*    padding: 16px 300px 16px 300px; */
+.footer{
+  background-color: #1A1A1A;
+  padding-bottom: 60px;
+}
+.div{
+  background-size: contain;
+}
+html{
+  scroll-behavior: smooth;
+}

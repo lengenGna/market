@@ -1,0 +1,93 @@
+@media (max-width:1220px) {
+.newImgF img:not(.stepB){
+    border-right: none;
+    padding-right: 0;
+    z-index: -1;
+}
+.imn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    height: auto;
+}
+.followImg{
+    margin: 10px;
+}
+.insta{
+    left: 47%;
+    display: block;
+}
+.emailAdress{
+    height: auto;
+}
+.sub_s{
+    width: 90%;
+    padding: 6px;
+    height: auto;
+}
+.sub_s button{
+    width: 20%;
+    left: 60%;
+}
+.sub_s input{
+  width: 40%;
+}
+.sub_info{
+    width: 90%;
+    word-break: break-all;
+    height: auto;
+}
+}
+@media (max-width:1070px) {
+   .sub_s button{
+    width: 100px;
+    left: 150px;
+}
+.sub_s input{
+  width: 150px;
+  margin-left: 10px;
+} 
+}
+@media (max-width:515px) {
+    .sub_withEmail{
+        display: block;
+    }
+    .sub_s button{
+    width: 100px;
+    left: 155px;
+}
+.sub_s input{
+  width: 150px;
+  margin-left: 10px;
+} 
+
+    .icons_sub{
+        margin: auto;
+    }
+}
+@media (max-width:770px) {
+    .stepB,
+    .stepBA
+    {
+        display: none;
+    }
+    .newImgF{
+        width: 90%;
+        padding: auto;
+    }
+}
+@media (max-width:450px) {
+    .newImgF{
+        display: none;
+    }
+    .imn{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: auto;
+}
+.insta{
+    display: block;
+    left: 45%;
+}
+}

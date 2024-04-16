@@ -1,0 +1,25 @@
+@media (max-width:1375px) {
+    .featured-product{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        width:auto;
+        padding-left: 10%;
+    }
+    .featured-product div:nth-child(5n){
+        display: none;
+    }   
+}
+@media (max-width:620px) {
+    .featured-product{
+        display: block;
+        width: auto;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    .featured-product div{
+        width: auto;
+        text-align: center;
+    }
+}
